@@ -1,0 +1,118 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "IPHONE ",
+      "price": 700,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, beatae. Maxime natus laboriosam ut fuga quam voluptate ipsa tempore doloremque, asperiores magni ratione rem eius, alias error. Quia, quam culpa.",
+      "category": "Phones",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDxNTjxa7KgQ7UDj336QEGs82Pf8KPJURnlw&usqp=CAU",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "IPHONE",
+      "price": 700,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, beatae. Maxime natus laboriosam ut fuga quam voluptate ipsa tempore doloremque, asperiores magni ratione rem eius, alias error. Quia, quam culpa.",
+      "category": "Phones",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5VbbLhtQTc1SZaBW1woctnmvpUUfPCU9R_g&usqp=CAU",
+      "rating": {
+        "rate": 600,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "IPHONE",
+      "price": 900,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, beatae. Maxime natus laboriosam ut fuga quam voluptate ipsa tempore doloremque, asperiores magni ratione rem eius, alias error. Quia, quam culpa.",
+      "category": "Phones",
+      "image": "https://p-hk.ipricegroup.com/uploaded_e42ce9e822e21c96c8c72d8df6875ead.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "IPHONE",
+      "price": 800,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, beatae. Maxime natus laboriosam ut fuga quam voluptate ipsa tempore doloremque, asperiores magni ratione rem eius, alias error. Quia, quam culpa.",
+      "category": "Phones",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQli6dwD7cRPdEZHpiggzO9_VwkveYxGkPLcTSBQIctAH2x_I0onfrpMZL1-2QVVYkcdm0&usqp=CAU",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "IPHONE",
+      "price": 700,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, beatae. Maxime natus laboriosam ut fuga quam voluptate ipsa tempore doloremque, asperiores magni ratione rem eius, alias error. Quia, quam culpa.",
+      "category": "Phones",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFgTjd2ljKIgWZodcn24vEqVvKt9FilyEwRw7XLdugBZvdPkU_1xUnVxi7_a8XDKkVxfM&usqp=CAU",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "IPHONE ",
+      "price": 650,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, beatae. Maxime natus laboriosam ut fuga quam voluptate ipsa tempore doloremque, asperiores magni ratione rem eius, alias error. Quia, quam culpa.",
+      "category": "Phones",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdRMZ7s34EPotD6tIXGtJfYm83iazWIMZkcU2PC3uwy6Nul52d-SktxCh59gqApbHoo00&usqp=CAU",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "iphone",
+      "price": 700,
+      "description": "asdcadcasdfasdfasdfa",
+      "category": "",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      }
+    },
+    {
+      "id": 8,
+      "title": "",
+      "price": 0,
+      "description": "",
+      "category": "",
+      "image": "",
+      "rating": {
+        "rate": 0,
+        "count": 0
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "rule": true
+    },
+    {
+      "username": "user",
+      "email": "user@gmail.com",
+      "password": "123",
+      "rule": false
+    }
+  ],
+  "categories": [
+    "Phones"
+  ],
+  "cart": []
+}

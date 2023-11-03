@@ -1,0 +1,49 @@
+
+<form class="row g-3" [formGroup]="LoginForm" (submit)="login($event)">
+  <h1 class="tect-primary">Login</h1>
+  <div class="col-md-7">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control " id="email" required
+    formControlName="email"
+    [ngClass]="{
+      'is-invalid':!emailControl?.valid && emailControl?.touched,
+      'is-valid': emailControl?.valid 
+    }"
+    >
+    <div class="valid-feedback"> Looks good! </div> 
+    <div class="invalid-feedback" *ngIf="emailControl?.errors && emailControl?.hasError('required')"> Email is required </div>
+    <div class="invalid-feedback" *ngIf="emailControl?.errors && emailControl?.hasError('email')"> Must be have @ </div>
+  </div>
+  <div class="col-md-7 ">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control " id="password" required
+    formControlName="password"
+    [ngClass]="{
+      'is-invalid':!passwordControl.valid && passwordControl.touched,
+      'is-valid': passwordControl.valid 
+    }"
+    >
+    <div class="valid-feedback"> Looks good! </div>
+   <div class="invalid-feedback"> Password is required </div>
+  </div>
+ <div class="m-2 alert alert-danger" *ngIf="LoginForm.errors">Wronge Email or Password</div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit"[ngClass]="{'disabled': LoginForm.errors}">Submit form</button>
+  </div>
+</form>
+
+
+<div class="container-fluid">
+  <ul>
+    <li>
+      <h6>admin@gmail.com</h6>
+      <h6>123</h6>
+    </li>
+    <li>
+      <h6>user@gmail.com</h6>
+      <h6>123</h6>
+    </li>
+  </ul>
+
+  
+</div>
